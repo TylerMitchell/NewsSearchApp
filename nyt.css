@@ -1,0 +1,111 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #B1D9B6;
+}
+
+form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #65B06E;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 80%;
+}
+
+.controls, .results {
+    flex: 1;
+    padding: 10px;
+}
+
+form p:nth-of-type(1) {
+    margin-top: 0;
+}
+
+h1 {
+    background-color: #2C8437;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 24px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropShadow:hover{
+    box-shadow: 10px 10px 5px grey;
+}
+
+article p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 2;
+}
+
+nav {
+    width: 70%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}
+
+article {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: #085812;
+}
+
+img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+span {
+    background-color: #B1D9B6;
+    padding: 5px;
+    margin: 5px;
+}
+
+.submit, .prev, .next{
+    min-width: 100px;
+    font-weight: bold;
+}
